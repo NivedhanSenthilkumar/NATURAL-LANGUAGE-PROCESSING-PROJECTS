@@ -105,3 +105,4 @@ cnn_model.add(Dense(50, activation='relu'))
 cnn_model.add(Dense(220,activation='softmax'))
 cnn_model.compile(optimizer='adam',loss='binary_crossentropy',metrics=['accuracy'])
 
+
